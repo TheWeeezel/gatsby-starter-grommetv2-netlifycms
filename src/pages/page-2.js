@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { Box, Heading, Paragraph } from "grommet"
+import { Box } from "grommet"
 
 import SEO from "../components/seo"
 
