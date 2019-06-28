@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import { Box, Heading, Paragraph } from "grommet"
 
 import "../styles/layout.css"
@@ -37,18 +37,20 @@ const Landing = () => {
       }}
     >
       <Box
-        pad="medium"
+        round="xsmall"
+        pad="large"
         elevation="small"
         background="neutral-1"
         animation={{
           type: "fadeIn",
-          delay: 500,
+          delay: 300,
           duration: 1000,
           size: "xlarge",
         }}
       >
         <Heading>{meta.landingHeading}</Heading>
         <Paragraph>{meta.subtitle}</Paragraph>
+        <Link to="/page-2">Learn more</Link>
       </Box>
     </Box>
   )

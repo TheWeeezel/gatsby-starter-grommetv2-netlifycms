@@ -13,6 +13,17 @@ collections:
         name: "landing"
         file: "src/pages/landing/index.md"
         fields:
-         - {label: "Landing Heading", name: "landingHeading", widget: "string"}
-         - {label: "Subtitle", name: "subtitle", widget: "string"}
-         - {label: "Background Image", name: "backgroundImage", widget: "image"}
+          - { label: "Landing Heading", name: "siteHeading", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - {
+              label: "Background Image",
+              name: "backgroundImage",
+              widget: "image",
+            }
+      - label: "About"
+        name: "about"
+        file: "src/pages/about/index.md"
+        fields:
+          - { label: "Site Heading", name: "siteHeading", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Text", name: "text", widget: "string" }
