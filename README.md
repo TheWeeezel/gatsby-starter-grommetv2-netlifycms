@@ -8,16 +8,8 @@ This Repository is aimed at bringing these three technologies together in an eas
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/robertcoopercode/gatsby-netlify-cms)
 
 
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TheWeeezel/gatsby-starter-grommetv2-netlifycms)
-
-
 ## :factory: Local Development
 
-### Prerequisites
-
-- Node (see [.nvmrc](./.nvmrc) for version)
 
 ### Run the project
 
