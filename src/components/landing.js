@@ -28,13 +28,13 @@ const Landing = () => {
       height="100vh"
       align="center"
       justify="center"
-      background={{
-        color: "neutral-1",
-        dark: true,
-        opacity: true,
-        position: "center bottom",
-        image: `url(${meta.backgroundImage})`,
-      }}
+      // background={{
+      //   color: "neutral-1",
+      //   dark: true,
+      //   opacity: true,
+      //   position: "center bottom",
+      //   image: `url(${meta.backgroundImage})`,
+      // }}
     >
       <Box
         round="xsmall"
