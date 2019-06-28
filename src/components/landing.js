@@ -1,6 +1,8 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-import { Box, Heading, Paragraph } from "grommet"
+import { Box } from "grommet/components/Box"
+import { Heading } from "grommet/components/Heading"
+import { Paragraph } from "grommet/components/Paragraph"
 
 import "../styles/layout.css"
 
@@ -28,13 +30,13 @@ const Landing = () => {
       height="100vh"
       align="center"
       justify="center"
-      // background={{
-      //   color: "neutral-1",
-      //   dark: true,
-      //   opacity: true,
-      //   position: "center bottom",
-      //   image: `url(${meta.backgroundImage})`,
-      // }}
+      background={{
+        color: "neutral-1",
+        dark: true,
+        opacity: true,
+        position: "center bottom",
+        image: `url(${meta.backgroundImage})`,
+      }}
     >
       <Box
         round="xsmall"
