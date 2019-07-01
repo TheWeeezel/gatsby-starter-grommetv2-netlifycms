@@ -14,7 +14,7 @@ This Repository is aimed at bringing these three technologies together in an eas
 ### Run the project
 
 ```
-$ git clone git@github.com:theweeezel/gatsby-starter-grommetv2-netlifycms.git
+$ git clone https://github.com/TheWeeezel/gatsby-starter-grommetv2-netlifycms.git
 $ gatsby-starter-grommetv2-netlifycms
 $ yarn
 $ gatsby develop
